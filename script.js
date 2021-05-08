@@ -19,7 +19,7 @@ let flippedVideo;
 function iniciar(classifier) {
   setInterval(async () => {
     classifyVideo(classifier);
-  }, 1000);
+  }, 400);
  }
 
 function classifyVideo(classifier) {
