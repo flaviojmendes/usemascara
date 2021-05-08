@@ -39,6 +39,6 @@ function gotResult(error, resultado) {
     document.getElementById('alerta').innerHTML = "👍👍"
   } else {
     document.body.style.backgroundColor = "#e06c6c"; 
-    document.getElementById('alerta').innerHTML = "😷👎"
+    document.getElementById('alerta').innerHTML = "Coloque a máscara! 👎"
   }
 }
